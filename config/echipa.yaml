@@ -1,0 +1,49 @@
+# Echipa fictiva folosita pentru testarea sistemului.
+# - email: adresa cu care membrul este invitat in Jira
+#   (poti folosi alias-uri Gmail: adresa+nume@gmail.com)
+# - competente: competentele DECLARATE; cele deduse vor veni din GitLab
+# - capacitate: story points pe sprint
+# - concediu: perioade de indisponibilitate (AAAA-LL-ZZ)
+
+echipa:
+  - nume: Ana Popescu
+    email: drondoedenisa5+ana@gmail.com
+    rol: Frontend developer
+    nivel: mid
+    competente: [frontend, react, typescript, ui]
+    capacitate: 20
+    concediu: []
+
+  - nume: Mihai Ionescu
+    email: drondoedenisa5+mihai@gmail.com
+    rol: Backend developer
+    nivel: senior
+    competente: [backend, python, api, baze-de-date]
+    capacitate: 20
+    concediu: []
+
+  - nume: Ioana Georgescu
+    email: drondoedenisa5+ioana@gmail.com
+    rol: QA engineer
+    nivel: junior
+    competente: [testare, automatizare-teste, python]
+    capacitate: 15
+    concediu:
+      - de_la: 2026-12-21
+        pana_la: 2027-01-04
+
+  - nume: Radu Dumitrescu
+    email: drondoedenisa5+radu@gmail.com
+    rol: DevOps engineer
+    nivel: mid
+    competente: [devops, docker, ci-cd, linux]
+    capacitate: 15
+    concediu: []
+
+  - nume: Elena Stan
+    email: drondoedenisa5+elena@gmail.com
+    rol: Full-stack developer
+    nivel: junior
+    competente: [frontend, backend, react, python]
+    capacitate: 20
+    concediu: []

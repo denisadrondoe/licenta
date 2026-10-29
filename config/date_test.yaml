@@ -1,0 +1,57 @@
+# Istoric fictiv pentru proiectul de test (o aplicatie de rezervari).
+# Scriptul populeaza_proiect_test.py:
+#   1. creeaza fiecare task in Jira (si il asigneaza membrului, daca il gaseste),
+#   2. face cate un commit "in numele" membrului, cu cheia Jira in mesaj,
+#      modificand fisierele indicate.
+# Asa obtii date reale pentru deducerea competentelor si pentru monitorizare.
+
+taskuri:
+  - titlu: Pagina de autentificare
+    membru: Ana Popescu
+    story_points: 3
+    fisiere: [frontend/src/pages/Login.tsx, frontend/src/components/LoginForm.tsx]
+
+  - titlu: Lista de rezervari in interfata
+    membru: Ana Popescu
+    story_points: 5
+    fisiere: [frontend/src/pages/Rezervari.tsx]
+
+  - titlu: API pentru autentificare
+    membru: Mihai Ionescu
+    story_points: 5
+    fisiere: [backend/app/auth.py, backend/app/models/user.py]
+
+  - titlu: API pentru rezervari
+    membru: Mihai Ionescu
+    story_points: 8
+    fisiere: [backend/app/rezervari.py, backend/app/models/rezervare.py]
+
+  - titlu: Migrari baza de date
+    membru: Mihai Ionescu
+    story_points: 3
+    fisiere: [backend/migrations/001_initial.sql]
+
+  - titlu: Teste pentru autentificare
+    membru: Ioana Georgescu
+    story_points: 3
+    fisiere: [backend/tests/test_auth.py]
+
+  - titlu: Teste pentru rezervari
+    membru: Ioana Georgescu
+    story_points: 3
+    fisiere: [backend/tests/test_rezervari.py]
+
+  - titlu: Containerizare aplicatie
+    membru: Radu Dumitrescu
+    story_points: 5
+    fisiere: [Dockerfile, docker-compose.yml]
+
+  - titlu: Pipeline CI
+    membru: Radu Dumitrescu
+    story_points: 3
+    fisiere: [.gitlab-ci.yml]
+
+  - titlu: Formular rezervare nou
+    membru: Elena Stan
+    story_points: 5
+    fisiere: [frontend/src/components/FormularRezervare.tsx, backend/app/validari.py]

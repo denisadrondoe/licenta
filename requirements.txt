@@ -1,0 +1,8 @@
+# Bibliotecile proiectului, cu versiuni fixe (mediul este identic pe orice laptop).
+# Instalare: dublu-click pe setup.bat  (sau: pip install -r requirements.txt)
+jira==3.10.5
+python-gitlab==8.6.0
+anthropic==2.3.0
+pydantic==2.14.1
+python-dotenv==1.2.4
+pyyaml==6.0.3

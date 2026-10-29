@@ -1,0 +1,13 @@
+# secrete - NU se urca niciodata in GitLab
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# date locale
+*.sqlite
+*.db
+mapare_taskuri.json
